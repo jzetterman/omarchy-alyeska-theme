@@ -44,8 +44,9 @@ return {
     },
     -- set up hot reload
     config = function(_, opts)
-      opts.on_colors = function(colors)
-        colors.comment = colors.bright_green
+      opts.on_highlights = function(highlights)
+        highlights.Comment = { fg = "#a6e3a1", italic = true }
+        highlights["@comment"] = { fg = "#a6e3a1", italic = true }
       end
       require("aether").setup(opts)
       vim.cmd.colorscheme("aether")
