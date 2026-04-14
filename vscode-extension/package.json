@@ -1,0 +1,20 @@
+{
+    "name": "theme-alyeska",
+    "displayName": "Alyeska Theme",
+    "description": "Alyeska color theme for VS Code",
+    "publisher": "local",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Alyeska",
+                "uiTheme": "vs-dark",
+                "path": "./themes/alyeska-color-theme.json"
+            }
+        ]
+    }
+}
