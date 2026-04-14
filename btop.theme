@@ -2,16 +2,16 @@
 theme[main_bg]="#1e1e2e"
 
 # Main text color
-theme[main_fg]="#cdd6f4"
+theme[main_fg]="#e4e8fb"
 
 # Title color for boxes
-theme[title]="#cdd6f4"
+theme[title]="#e4e8fb"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#89b4fa"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#cdd6f4"
+theme[selected_bg]="#e4e8fb"
 
 # Foreground color of selected item in processes box
 theme[selected_fg]="#89b4fa"
@@ -23,7 +23,7 @@ theme[inactive_fg]="#45475a"
 theme[graph_text]="#d5dcf6"
 
 # Background color of the percentage meters
-theme[meter_bg]="#cdd6f4"
+theme[meter_bg]="#e4e8fb"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
 theme[proc_misc]="#d5dcf6"
@@ -85,9 +85,9 @@ theme[process_end]="#cba6f7"
 # Graph gradient colors (spectrum shades from background to foreground)
 theme[gradient_color_0]="#1e1e2e"
 theme[gradient_color_1]="#353543"
-theme[gradient_color_2]="#cdd6f4"
+theme[gradient_color_2]="#e4e8fb"
 theme[gradient_color_3]="#45475a"
 theme[gradient_color_4]="#9aa1b7"
-theme[gradient_color_5]="#cdd6f4"
+theme[gradient_color_5]="#e4e8fb"
 theme[gradient_color_6]="#d5dcf6"
 theme[gradient_color_7]="#dae0f7"
